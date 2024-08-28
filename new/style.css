@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background: rgb(34,193,195);
+    background: -moz-linear-gradient(130deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: -webkit-linear-gradient(130deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    background: linear-gradient(130deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#22c1c3",endColorstr="#fdbb2d",GradientType=1);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+.form-group button {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+#image-container .image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#image-container img {
+    width: calc(25% - 15px); /* 4 images per row with spacing */
+    height: auto;
+    border-radius: 10px;
+}
+
+.add-caption-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-top: 50%;
+}

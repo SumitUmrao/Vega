@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Search with Unsplash</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Search Images from Unsplash</h1>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+            <label for="search-term">Search Term</label>
+            <input type="text" id="search-term" placeholder="Enter search term" required>
+        </div>
+        <div class="form-group">
+            <button onclick="handleSubmit()">Submit</button>
+        </div>
+
+        <div id="image-container">
+            <a id="add-caption-link" href="second.html" target="_blank" style="display: none;">Add Caption</a>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
